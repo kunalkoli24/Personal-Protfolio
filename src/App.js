@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import 'boxicons/css/boxicons.min.css';
 
-
-
-
-
-
-
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   

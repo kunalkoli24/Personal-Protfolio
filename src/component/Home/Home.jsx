@@ -56,7 +56,7 @@ const Home = () => {
                 <div className="relative mt-12 md:mt-0 mx-auto md:ml-auto md:mr-0 ">
                     <img
                         className="h-40 w-40 md:h-[22rem] md:w-[22rem]  lg:h-[22rem] lg:w-[22rem] lg:mt-[5rem] xl:ml-[7rem] xl:h-[22rem] xl:w-[22rem] xl:mt-[6rem] 2xl:h-[22rem] 2xl:w-[22rem] 2xl:mt-[7rem] 2xl:mr-0 rounded-full"
-                        src={require('../../assets/profile-photo.jpg')}
+                        src={profilePhoto}
                         alt="Profile"
                     />
                 </div>

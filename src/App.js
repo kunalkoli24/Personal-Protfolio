@@ -53,21 +53,28 @@ const App = () => {
             <a href="#projects">Projects</a>
           </li>
           <li className="px-4 py-2 hover:bg-blue-500 sm:hover:bg-transparent">
-          <a  href="/resume.pdf" 
-            className="resume-link"
-            onClick={(e) => {
-              e.preventDefault();
-              const resumeUrl = '/resume.pdf';
+          <a
+  href="/resume.pdf"
+  className="resume-link"
+  onClick={(e) => {
+    e.preventDefault(); 
+    
+    const resumeUrl = '/resume.pdf';
 
-              window.open(resumeUrl, '_blank');
+    window.open(resumeUrl, '_blank');
 
-              const a = document.createElement('a');
-              a.href = resumeUrl;
-              a.download = 'Kunal_Koli_Resume.pdf';
-              a.click();
-            }} >
-            Resume
-          </a>
+    
+    const a = document.createElement('a');
+    a.href = resumeUrl;
+    a.download = 'Kunal_Koli_Resume.pdf';
+    document.body.appendChild(a); 
+    a.click(); 
+    document.body.removeChild(a); 
+  }}
+>
+  Resume
+</a>
+
 
           </li>
           <li className="px-4 py-2 hover:bg-blue-500 sm:hover:bg-transparent">

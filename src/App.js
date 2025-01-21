@@ -64,12 +64,7 @@ const App = () => {
     window.open(resumeUrl, '_blank');
 
     
-    const a = document.createElement('a');
-    a.href = resumeUrl;
-    a.download = 'Kunal_Koli_Resume.pdf';
-    document.body.appendChild(a); 
-    a.click(); 
-    document.body.removeChild(a); 
+    
   }}
 >
   Resume

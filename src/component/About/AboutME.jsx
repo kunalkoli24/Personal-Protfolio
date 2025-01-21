@@ -35,7 +35,7 @@ const AboutMe = () => {
     <p className="ml-4 sm:ml-0 sm:text-center text-lg sm:text-xl font-semibold">Bachelor of Engineering in Computer Engineering,</p>
     <p className="ml-4 sm:ml-0 sm:text-center">Keystone School Of Engineering Affiliated to SPPU.</p>
     <p className="ml-4 sm:ml-0 sm:text-center">Currently In My 4th Year.</p>
-    <p className="ml-4 sm:ml-0 sm:text-center">CGPA: 7.0/10</p>
+    <p className="ml-4 sm:ml-0 sm:text-center">Third Year SGPA: 8.29</p>
 </div>
 
     

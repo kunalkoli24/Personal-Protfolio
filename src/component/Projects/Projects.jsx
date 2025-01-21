@@ -12,16 +12,16 @@ const Projects = () => {
           <div className="h-auto w-full md:w-[48%] lg:w-[45%] xl:w-[42%] ">
             <div className="mx-4 sm:mx-8 h-auto mt-6 sm:mt-12 text-lg space-y-4 border-2 border-[#0ef] rounded-3xl shadow-[#0ef] shadow-lg p-5 md:p-7">
               <p className="text-center mt-5 font-bold text-xl sm:text-2xl xl:text-3xl underline text-white">
-                Online Car Parking System
+              ChatNetwork
               </p>
               <p className="text-center text-white">
-                The Online Parking System is a web-based platform designed to help users find,
-                book, and manage parking spaces in real-time.
+              Developed ChatNetwork, a real-time chat application using Socket.io, HTML, CSS, and JavaScript, designed to enable instant, seamless communication between users.
               </p>
               <p className="text-center text-white">
-                The system typically includes features like user registration, parking spot
-                availability tracking, and payment integration.
+              The core functionality is powered by Socket.io, facilitating bidirectional, real-time message exchange.
               </p>
+              <p className="text-center text-white">
+              ChatNetwork showcases expertise in real-time communication and responsive web application development.              </p>
             </div>
           </div>
 

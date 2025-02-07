@@ -101,7 +101,7 @@ const Skills = () => {
     {/* Java */}
     <div className="tech-bars">
       <div className="bar">
-        <i className="bx bxl-python"></i>
+        <i className="bx bxl-java"></i>
       </div>
       <div className="info text-white">
         <span>JAVA</span>

@@ -22,7 +22,7 @@ const AboutMe = () => {
                     user-friendly interfaces using modern technologies like TailwindCSS, JavaScript, and React.
                 </p>
                 <p className="mt-4 text-sm sm:text-base text-center">
-                    I enjoy solving real-world problems through technology. One of my notable projects is <b>‘GreenBasket’</b>, a grocery website that enhances the online shopping experience. I’m also working on a <b>journey planning website</b> as part of my final year project.
+                    I enjoy solving real-world problems through technology. I’m also working on a <b>journey planning website</b> as part of my final year project.
                 </p>
             </div>
         
@@ -35,7 +35,7 @@ const AboutMe = () => {
     <p className="ml-4 sm:ml-0 sm:text-center text-lg sm:text-xl font-semibold">Bachelor of Engineering in Computer Engineering,</p>
     <p className="ml-4 sm:ml-0 sm:text-center">Keystone School Of Engineering Affiliated to SPPU.</p>
     <p className="ml-4 sm:ml-0 sm:text-center">Currently In My 4th Year.</p>
-    <p className="ml-4 sm:ml-0 sm:text-center">Third Year SGPA: 8.29</p>
+    <p className="ml-4 sm:ml-0 sm:text-center">Fourth Year SGPA: 9.10</p>
 </div>
 
     

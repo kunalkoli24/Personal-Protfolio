@@ -98,6 +98,19 @@ const Skills = () => {
       </div>
     </div>
 
+    {/* Java */}
+    <div className="tech-bars">
+      <div className="bar">
+        <i className="bx bxl-python"></i>
+      </div>
+      <div className="info text-white">
+        <span>JAVA</span>
+      </div>
+      <div className="progress-line python">
+        <span data-percentage="50%"></span>
+      </div>
+    </div>
+
     {/* Figma */}
     <div className="tech-bars">
       <div className="bar">
